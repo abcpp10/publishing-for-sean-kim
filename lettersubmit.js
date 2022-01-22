@@ -4,7 +4,8 @@ lettersubmit.addEventListener('click',xLetterSubmit,false);
 
 
 function xLetterSubmit() {
-    //작성한 내용을 익명으로 서버에 보내야 함
-
-    location.href="index.html";
+    if(confirm('익명 제보를 보내시겠습니까?')) {
+        //작성한 내용을 서버에 보내야 함
+        location.href="index.html";
+    }
 }
