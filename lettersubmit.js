@@ -16,8 +16,9 @@ function xLetterSubmit() {
     }
     else {
         if(confirm('익명 제보를 보내시겠습니까?')) {
-            form.submit();
-        }
+            //form.submit();
+            location.href="index.html";
+}
         else {
             return false;
         }
