@@ -4,5 +4,5 @@ backbutton.addEventListener('click',xGoBack,false);
 
 
 function xGoBack() {
-    location.href="index.html";
+    history.go(-1);
 }
