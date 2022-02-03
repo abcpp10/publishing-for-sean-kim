@@ -101,6 +101,55 @@ body {
     color: white;
 }
 
+.noticeList {
+    padding-bottom: 16px;    
+}
+
+.notice {
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.noticeTitle {
+    padding-top: 8px;
+    padding-bottom: 4px;
+    font-size: 14px;
+}
+
+.noticeDate {
+    padding-top: 4px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.viewMoreButton {
+    max-width: 180px;
+    width: 100%;
+    display: block;
+    height: 48px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+}
+
+.viewMoreButtonLabel {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: green;
+}
+
+
 ul {
     list-style: none;
     padding-left: 0px;
@@ -110,3 +159,33 @@ h1 {
     margin-top: 32px;
     font-size: 1.2em;
 }
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*
+.pagination {
+    text-align: center;
+    margin-bottom: 48px;
+}
+  
+.pagination a {
+    padding: 8px 16px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.activepage {
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+  }
+*/
