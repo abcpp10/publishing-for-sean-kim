@@ -1,7 +1,7 @@
 body {
     max-width: 480px;
     margin: 0 auto;
-    padding: 0 4% 0 4%;
+    padding: 0 4% 32% 4%;
     font-family: 'Noto Sans KR', sans-serif; 
     background-color: #F1F3F4;
 }
@@ -45,7 +45,7 @@ body {
     font-weight: 500;
     color: green;
     cursor: pointer;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
 }
 
 .letterGuide {
