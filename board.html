@@ -10,8 +10,51 @@
 </head>
 <body>
     <h1>
-        제목
+        📋 자유게시판
     </h1>
+
+    <div class="boardFormArea">
+        <form action="" method="POST" name="boardForm" id="boardForm">
+            <textarea class="boardField" name="boardField" id="boardField"></textarea>
+            <button type="button" class="boardSubmitButtonDisabled" id="boardSubmitButton">
+                <span class="boardButtonLabel">글쓰기</span>
+            </button>
+        </form>
+    </div>
+
+
+    <ul class="boardList">
+        <li>
+            <div class="board" id="board">
+                    <div class="boardWriter">구동규 (203호)</div>
+                    <div class="boardContents">오늘 골목에 붕어빵을 팔더라고요~~^^ 다들 가서 먹어보세용~</div>
+                    <div class="boardDate">2022.02.03 10:00</div>
+            </div>
+        </li>
+        <li>
+            <div class="board" id="board">
+                    <div class="boardWriter">김선우 (202호)</div>
+                    <div class="boardContents">밖에 눈오네여 ㅋㅋ 굳굳</div>
+                    <div class="boardDate">2022.02.02 10:00</div>
+            </div>
+        </li>
+        <li>
+            <div class="board" id="board">
+                    <div class="boardWriter">엄지민 (201호)</div>
+                    <div class="boardContents">202호 기타 치는 소리 너무 시끄러워</div>
+                    <div class="boardDate">2022.02.01 10:00</div>
+            </div>
+        </li>
+
+    </ul>
+
+
+    <button type="button" class="viewMoreButton" id="viewMoreButton">
+        <span class="viewMoreButtonLabel">더보기</span>
+    </button>
+
+
+
 
     <div class="backButton" id="backButton">이전 페이지로 이동</div>
 
@@ -21,6 +64,7 @@
 
     <script type="text/javascript" src="back.js"></script>
 
-    
+    <script type="text/javascript" src="boardsubmit.js"></script> 
+
 </body>
 </html>
