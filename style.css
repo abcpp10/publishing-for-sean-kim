@@ -289,6 +289,57 @@ body {
 
 
 
+.loginGuide {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.phoneField {
+    margin-top: 12px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px;
+    resize: none;
+    font-size: 16px;
+}
+.pinField {
+    margin-top: 12px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px;
+    resize: none;
+    font-size: 16px;
+}
+.vnumField {
+    margin-top: 12px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px;
+    resize: none;
+    font-size: 16px;
+}
+
+.signupButton {
+    font-size: 14px;
+    font-weight: 100;
+    color: green;
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
 
 ul {
     list-style: none;
@@ -325,4 +376,8 @@ hr {
 
 
 
-
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
